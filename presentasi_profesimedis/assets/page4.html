@@ -39,6 +39,50 @@ body
 
 p {
 	font-size: 20px !important;
+	margin-top:20px; 
+	margin-bottom:20px; 
+}
+
+body 
+
+
+
+th, td {
+    padding: 5px;
+    color: black !important;
+    height: 5px; line-height: 5px;
+}
+
+.pleft{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: left;
+}
+
+.pright{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: right;
+
+}
+
+.pcenter{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: center;
+
+}
+
+
+
+
+.conpress{
+	min-height: 750px; 
+	margin-top: 10px;"
+
 }
 
 .loginbutton a:hover{
@@ -54,12 +98,21 @@ p {
 	background-color: orange;
 }
 
-.clbutton:visited{
+.selected{
 	background-color: green;
 }
 
 
 
+@import url(https://fonts.googleapis.com/css?family=Agency+FB);
+.profesimedis2{
+	font-family: Agency FB, Arial ;
+	color: white;
+	font-size: 32px;
+	border-bottom: 2px solid #990000 ;
+	margin: auto;
+
+}
 
 
 </style>
@@ -71,7 +124,8 @@ p {
 	<div class="header">
 		<div class="container">
 			<div class="header-logo">
-				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>					
+				<a href="http://www.profesimedis.com"><span class="profesimedis2">Profesimedis.com</span></a>
+				<font color="white" style="font-size: 12px; vertical-align: text-top;"><b>Indonesian Medical Jobs Network</b></font>						
 			</div>
 			<div class="header-info">
 				<font color="white"><h1><b>Presentasi Profesi Medis</b></h1></font>
@@ -89,7 +143,7 @@ p {
 	<a href="page1.html" class="btn btn-info btn-lg clbutton">1</a>
 	<a href="page2.html" class="btn btn-info btn-lg clbutton">2</a>
 	<a href="page3.html" class="btn btn-info btn-lg clbutton">3</a>
-	<a href="page4.html" class="btn btn-info btn-lg clbutton">4</a>
+	<a href="page4.html" class="btn btn-info btn-lg clbutton selected">4</a>
 	<a href="page5.html" class="btn btn-info btn-lg clbutton">5</a>
 	<a href="page6.html" class="btn btn-info btn-lg clbutton">6</a>
 	<a href="page7.html" class="btn btn-info btn-lg clbutton">7</a>
@@ -108,14 +162,55 @@ p {
 	</div>
 	<!--//header-bottom-->
 
-	<div class="container" style="height: 600px;">
-			<h2><b>4. Keanggotaan Free-Mium: </b> Paket Gratis dan Berbayar.. Coba GRATIS Paket Starter!!</h2>
+	<div class="container conpress">
+			<h2><b>4. Keanggotaan Free-Mium : </b> Paket Gratis dan Berbayar.. Coba GRATIS <b>Paket Starter !!</b></h2>
 
-			<div class="col-md-6" style="position: relative; top:70px; float: right">
-			<p>Untuk pekerja medis: hanya dengan mendaftar secara GRATIS Anda sudah bisa mendaftarkan diri Anda untuk me-listing job dan mengajukan aplikasi lamaran ke sejumlah rumah sakit, klinik atau instansi kesehatan.
+			<div class="col-md-6 pleft">
+			<p><b>Untuk pekerja medis :</b> hanya dengan mendaftar secara GRATIS Anda sudah bisa mendaftarkan diri Anda untuk me-listing job dan mengajukan aplikasi lamaran ke sejumlah rumah sakit, klinik atau instansi kesehatan.
 			  </p>
-			<p>Untuk klinik/rumah sakit : dapatkan secara gratis fasilitas mencari tenaga kerja medis yang handal dan profesional.</p>
+			<p><b>Untuk klinik/rumah sakit :</b> dapatkan secara gratis fasilitas mencari tenaga kerja medis yang handal dan profesional.</p>
 			</div>
+
+			<div class="col-md-6 pright">
+				<h4><b>Fasilitas Paket Gratis</b></h4>
+				<table class="table table-condensed" style="border-style: solid; border-width: 2px; border-color: grey">
+				    <thead>
+				      <tr>
+				        <th><h4><b>Fitur</b></h4></th>
+				        <th><h4><b>Tersedia</b></h4></th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>Membuat dan menampilkan profile</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>Membuat CV</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>Mengajukan lamaran</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td ><h4>Men-tag lokasi praktek di Google Maps</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				    </tbody>
+				</table>
+			</div>
+
+			<div class="col-md-12 pcenter">
+			
+				<div style="text-align: center">
+				<p>
+				<a href="page3.html" class="btn btn-default btn-lg clbutton">Last Page</a>
+				<a href="page5.html" class="btn btn-success btn-lg clbutton">Next Page</a>
+				</p>
+				</div>
+			</div>
+
 	</div>
 
 	

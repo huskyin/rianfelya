@@ -43,6 +43,16 @@ p {
 	margin-bottom:20px; 
 }
 
+body 
+
+
+
+th, td {
+    padding: 5px;
+    color: black !important;
+    height: 5px; line-height: 5px;
+}
+
 .pleft{
 	position: relative; 
 	margin-top:20px; 
@@ -88,15 +98,26 @@ p {
 	background-color: orange;
 }
 
-.clbutton:visited{
+.selected{
 	background-color: green;
 }
 
 
+@import url(https://fonts.googleapis.com/css?family=Agency+FB);
+.profesimedis2{
+	font-family: Agency FB, Arial ;
+	color: white;
+	font-size: 32px;
+	border-bottom: 2px solid #990000 ;
+	margin: auto;
 
+}
 
 
 </style>
+
+
+
 <!--//end-smoth-scrolling-->
 </head>
 <body>
@@ -104,7 +125,8 @@ p {
 	<div class="header">
 		<div class="container">
 			<div class="header-logo">
-				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>					
+				<a href="http://www.profesimedis.com"><span class="profesimedis2">Profesimedis.com</span></a>
+				<font color="white" style="font-size: 12px; vertical-align: text-top;"><b>Indonesian Medical Jobs Network</b></font>							
 			</div>
 			<div class="header-info">
 				<font color="white"><h1><b>Presentasi Profesi Medis</b></h1></font>
@@ -123,7 +145,7 @@ p {
 	<a href="page2.html" class="btn btn-info btn-lg clbutton">2</a>
 	<a href="page3.html" class="btn btn-info btn-lg clbutton">3</a>
 	<a href="page4.html" class="btn btn-info btn-lg clbutton">4</a>
-	<a href="page5.html" class="btn btn-info btn-lg clbutton">5</a>
+	<a href="page5.html" class="btn btn-info btn-lg clbutton selected">5</a>
 	<a href="page6.html" class="btn btn-info btn-lg clbutton">6</a>
 	<a href="page7.html" class="btn btn-info btn-lg clbutton">7</a>
 	<a href="page8.html" class="btn btn-info btn-lg clbutton">8</a>
@@ -146,22 +168,86 @@ p {
 
 			<div class="col-md-6 pleft">
 			  <p><b>Paket Premium Rp <del>800K</del> 400K* per tahun</b></p>
+				<table class="table table-condensed" style="border-style: solid; border-width: 2px; border-color: grey">
+				    <thead>
+				      <tr>
+				        <th><h4><b>Fitur</b></h4></th>
+				        <th><h4><b>Tersedia</b></h4></th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>SEMUA fitur dalam Paket GRATIS</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>Mengupload gambar Sertifikat</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>Membuat jadwal praktek</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td ><h4>SEO Optimiztion</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				    </tbody>
+				</table>
+
 			</div>
 
 			<div class="col-md-6 pright">
 			
-			<p>Paket ini membuat Anda bisa mengupload portfolio secara bebas, pindahan CV dan sertifikat, seminar , selain itu dilengkapi dengan SEO-Optimization untuk memudahkan orang mencari Anda dan bahkan me-list   jadwal praktek Anda dan men-tag lokasi tempatnya  dengan Google Maps.
+			<p>Paket Premium membuat Anda bisa mengupload portfolio secara bebas, pindahan CV dan sertifikat, seminar , selain itu dilengkapi dengan SEO-Optimization untuk memudahkan orang mencari Anda dan bahkan me-list   jadwal praktek Anda dan men-tag lokasi tempatnya  dengan Google Maps.
 			</div>
 			<div class="clearfix"></div>
 
 			<div class="col-md-6 pleft">
 			  <p><b>Paket Eksklusif Rp <del>1300K</del> 650K* per tahun</b></p>
+			  <table class="table table-condensed" style="border-style: solid; border-width: 2px; border-color: grey">
+				    <thead>
+				      <tr>
+				        <th><h4><b>Fitur</b></h4></th>
+				        <th><h4><b>Tersedia</b></h4></th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>SEMUA fitur dalam Paket Premium</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>URL pribadi. contoh: (profesimedis.com/dr_felya)</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td><h4>User Management Content</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				      <tr style="height: 5px; line-height: 5px;">
+				        <td ><h4>Blog sharing</h4></td>
+				        <td><font color="green" ><h4>&#10004;</h4></font></td>
+				      </tr>
+				    </tbody>
+				</table>
 			</div>
 			
 			<div class="col-md-6 pright">
 			
-			<p>Paket ini mencakup SEMUA fitur dalam Paket Premium dengan tambahan Content Management User, yang memungkinkan Anda untuk mengatur jadwal, membuat janji dengan pasien sendiri. Dan di samping itu Anda juga memiliki <i>landing page</i> pribadi, dan membuat blog, catatan untuk dibagikan kepada orang lain.
+			<p>Paket Eksklusif mencakup SEMUA fitur dalam Paket Premium dengan tambahan User Management Content, yang memungkinkan Anda untuk mengatur jadwal, membuat janji dengan pasien sendiri. Dan di samping itu Anda juga memiliki <i>landing page</i> pribadi, dan membuat blog, catatan untuk dibagikan kepada orang lain.
 			</div>
+
+			<div class="col-md-12 pcenter">
+			* Diskon hingga 25 Desember 2017
+				<div style="text-align: center">
+				<p>
+				<a href="page4.html" class="btn btn-default btn-lg clbutton">Last Page</a>
+				<a href="page6.html" class="btn btn-success btn-lg clbutton">Next Page</a>
+				</p>
+				</div>
+			</div>
+
 	</div>
 
 	

@@ -39,7 +39,51 @@ body
 
 p {
 	font-size: 20px !important;
+	margin-top:20px; 
+	margin-bottom:20px; 
 }
+
+body 
+
+a {
+	margin: 0px;
+	padding: 0px;
+}
+
+th, td {
+    padding: 5px;
+    color: black !important;
+    height: 5px; line-height: 5px;
+}
+
+li {
+	font-size: 20px !important;
+}
+
+.pleft{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: left;
+}
+
+.pright{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: right;
+
+}
+
+.pcenter{
+	position: relative; 
+	margin-top:20px; 
+	margin-bottom:20px; 
+	float: center;
+
+}
+
+
 
 
 .conpress{
@@ -57,15 +101,66 @@ p {
 	margin:5px;
 }
 
+
 .clbutton:hover{
 	background-color: orange;
 }
 
-.clbutton:visited{
+.selected{
 	background-color: green;
 }
 
 
+
+@import url(https://fonts.googleapis.com/css?family=Agency+FB);
+.profesimedis{
+	font-family: Agency FB, Arial ;
+	
+	color: white;
+	font-size: 37px;
+	border-bottom: 2px solid #990000 ;
+	margin: auto;
+
+}
+
+.box-title{
+	text-align: center;
+	background-color: #448885;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.box-title2{
+	text-align: center;
+	background-color: #448885;
+	height: 500px;
+	width: 150px;
+	margin: auto;
+	padding: 10px;
+}
+
+#titlecontent {
+  
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: url('assets/images/background.png');
+    background-repeat: repeat-x;
+    background-origin: content-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Agency+FB);
+.profesimedis2{
+	font-family: Agency FB, Arial ;
+	color: white;
+	font-size: 32px;
+	border-bottom: 2px solid #990000 ;
+	margin: auto;
+
+}
 
 
 
@@ -78,7 +173,8 @@ p {
 	<div class="header">
 		<div class="container">
 			<div class="header-logo">
-				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>					
+				<a href="http://www.profesimedis.com"><span class="profesimedis2">Profesimedis.com</span></a>
+				<font color="white" style="font-size: 12px; vertical-align: text-top;"><b>Indonesian Medical Jobs Network</b></font>				
 			</div>
 			<div class="header-info">
 				<font color="white"><h1><b>Presentasi Profesi Medis</b></h1></font>
@@ -93,7 +189,7 @@ p {
 	<div class="header-bottom">
 <div class="button-area" style="margin: 0 20px 0 20px; text-align: center;">
 	<a href="../index.html" class="btn btn-info btn-lg clbutton">0</a>
-	<a href="page1.html" class="btn btn-info btn-lg clbutton">1</a>
+	<a href="page1.html" class="btn btn-info btn-lg clbutton selected">1</a>
 	<a href="page2.html" class="btn btn-info btn-lg clbutton">2</a>
 	<a href="page3.html" class="btn btn-info btn-lg clbutton">3</a>
 	<a href="page4.html" class="btn btn-info btn-lg clbutton">4</a>
@@ -115,11 +211,46 @@ p {
 	</div>
 	<!--//header-bottom-->
 
-	<div class="container conpress" >
-			<h2><b>1.Siapa Kami:</b> Profesi Medis</h2>
+	<div class="container conpress">
+			<h2><b>1. Profesi Medis,</b> The Indonesian Medical Jobs Network</h2>
 
-			<div style="position: relative; top:200px;">
-			<p>Profesi medis merupakan salah satu cabang usaha dari Medical Instrument and Record Indonesia atau disingkat Medicrec. Medicrec adalah bisnis yang merupakan perpaduan dari dunia kesehatan dan Teknologi Informasi </p>
+			<div class="col-md-12 pcenter">
+			<p>Profesi Medis (<a href="">www.profesimedis.com</a>) adalah aplikasi portal sosial media daring (online) untuk kalangan profesional medis di Indonesia. Profesi Medis berisi konten-kontent yang DIBUTUHKAN oleh semua kalangan pekerja dan instansi medis seperti:
+					<ul>
+					<li>Informasi Lowongan Kerja / Mencari Tenaga Kerja Medis</li>
+					<li>Informasi Seminar, Pelatihan, dan Pendidikan Medis. </li>
+					<li>Informasi Rumah Sakit, Fasilitas, Klinik, dan instansi medis lainnya</li>
+					<li>Blog dan artikel Kesehatan</li>
+					</ul>
+			  </p>
+			</div>
+			<div class="col-md-6 pleft" style="margin-top: 20px;">
+			<p>Jenis profesi medis yang dilayani oleh Profesi Medis diantaranya:
+				<b><ul>
+					<li>Dokter</li>
+					<li>Bidan </li>
+					<li>Perawat</li>
+					<li>Mantri</li>
+					<li>Analis Kesehatan</li>
+					<li>Pegawai Rumah Sakit / instansi medis</li>
+					<li>Masyarakat Umum</li>
+
+				</ul></b>
+			</p>
+			</div>
+			<div class="col-md-6 pright" style="margin-top: 20px;padding-right: 20px; overflow: hidden;">
+			<img src="images/background.png" style="margin-right: 20px;">
+			</div>
+			<div class="col-md-12 pcenter" style="margin-top: 20px;">
+			<p>Profesi medis merupakan salah satu cabang usaha dari <b>Medical Instrument and Record Indonesia</b> atau disingkat <b>Medicrec</b>. Medicrec adalah bisnis yang merupakan perpaduan dari dunia kesehatan dan Teknologi Informasi </p>
+
+			<div style="text-align: center">
+				<p>
+				<a href="../index.html" class="btn btn-default btn-lg clbutton">Last Page</a>
+				<a href="page2.html" class="btn btn-success btn-lg clbutton">Next Page</a>
+				</p>
+			</div>
+
 			</div>
 	</div>
 
